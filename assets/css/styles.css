@@ -17,3 +17,11 @@
     max-width: 100%;
     height: auto;
 }
+
+.say-a-text-content {
+    max-width: 64rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 100vh;
+}
