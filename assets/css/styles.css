@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     gap: var(--gap);
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .intro-text-content, .intro-img {
@@ -13,7 +13,7 @@
     justify-content: center;
 }
 
-.intro-img img {
+.intro-img img, .intro-img svg {
     max-width: 100%;
     height: auto;
 }
@@ -23,14 +23,14 @@
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .grid-one-content {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    height: 100vh;    
+    min-height: 100vh;    
 }
 
 .grid-title {
